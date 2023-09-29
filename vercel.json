@@ -1,7 +1,7 @@
 my-live-video-clip-cutter/
 │
 ├── api/
-│   ├── cut-video.js     (Serverless function to cut and save video clips)
+│   ├── cut-video.js       (Serverless function to cut and save video clips)
 │   └── ...
 │
 ├── assets/
@@ -17,7 +17,7 @@ my-live-video-clip-cutter/
 │   └── ...
 │
 ├── pages/
-│   ├── index.vue        (Your main Vue.js page for the frontend)
+│   ├── index.vue          (Your main Vue.js page for the frontend)
 │   └── ...
 │
 ├── static/
@@ -30,5 +30,6 @@ my-live-video-clip-cutter/
 ├── nuxt.config.js
 ├── package.json
 ├── tsconfig.json
-├── vercel.json          (Vercel deployment configuration)
+├── vercel.json              (Vercel deployment configuration)
+├── server.js                (Node.js server for backend operations)
 └── yarn.lock
