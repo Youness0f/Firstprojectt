@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Live Video Clip Cutter</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Live Video Clip Cutter</h1>
+    </header>
+    
+    <main>
+        <section id="urlInputContainer">
+            <label for="videoUrl">Enter Live Video URL:</label>
+            <input type="text" id="videoUrl" placeholder="https://example.com/live-video">
+            <button id="loadButton">Load Live Video</button>
+        </section>
+
+        <section id="videoContainer">
+            <!-- The live video stream will be loaded here -->
+        </section>
+
+        <section id="clipControls">
+            <label for="startTime">Start Time (mm:ss):</label>
+            <input type="text" id="startTime" placeholder="00:00">
+            <label for="endTime">End Time (mm:ss):</label>
+            <input type="text" id="endTime" placeholder="00:00">
+            <button id="cutButton">Cut and Save Clip</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Live Video Clip Cutter</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
